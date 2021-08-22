@@ -23,3 +23,13 @@ for _ in range(n):
         stack_l.pop()
     elif temp[0] == 'P':
         stack_l.append(temp[2])
+
+# 1번째 출력 방법
+stack_l.extend(stack_r[::-1])  # list[::-1] 은 전체리스트를 -1 간격으로 출력 즉, reverse()와 같다.
+
+# 2번째 출력 방법
+stack_r.reverse() 
+stack_l.extend(stack_r) 
+# 출력
+print("".join(stack_l))
+
