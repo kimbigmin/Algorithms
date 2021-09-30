@@ -20,3 +20,5 @@ for i in range(9):
   # 2명의 난쟁이를 제외시키면 9명 이하가 되므로 반복문 종료시킨다.
   if len(list) < 9:
     break
+
+  
