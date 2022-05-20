@@ -1,7 +1,9 @@
-// 자료구조 1 - 스택 수열 @@@@@@@@@@@@@@
+// 자료구조 1 - 스택 수열
+
+const path = require("path");
 
 const input = require("fs")
-  .readFileSync("./note.txt")
+  .readFileSync(path.resolve(__dirname, "../../input.txt"))
   .toString()
   .trim()
   .split("\n");
