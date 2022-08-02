@@ -1,3 +1,5 @@
+// 중복 순열 문제
+
 const path = require("path");
 
 const input = require("fs")
